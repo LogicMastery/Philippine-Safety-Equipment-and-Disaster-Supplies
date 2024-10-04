@@ -227,7 +227,7 @@ can contact the company or the person. */
     height: 480px;
     top: 40%;
     left: 40%;
-    transform: translate(400%, -5%);
+    transform: translate(400%, 15%);
 }
 
 .contact-text-content {
@@ -277,7 +277,7 @@ can contact the company or the person. */
     color: #F79431;
     width: 130px;
     height: 50px;
-    transform: translate(-10%);
+    text-align: center;
 }
 
 .phone-text-2 {
@@ -292,14 +292,14 @@ can contact the company or the person. */
     color: #F79431;
     width: 130px;
     height: 50px;
-    transform: translate(-35%);
+    text-align: center;
 }
 
 .email-text-2 {
     color: #F79431;
     width: 130px;
     height: 50px;
-    transform: translate(-25%, -50%);
+    transform: translate(0%, -50%);
     text-align: center;
 }
 
@@ -307,14 +307,15 @@ can contact the company or the person. */
     color: #F79431;
     width: 130px;
     height: 50px;
-    transform: translate(-10%);
+    text-align: center;
+    transform: translate(10%);
 }
 
 .location-text-2 {
     color: #F79431;
     width: 130px;
     height: 50px;
-    transform: translate(-20%, -50%);
+    transform: translate(0%, -50%);
     text-align: center;
 }
 
@@ -322,7 +323,8 @@ can contact the company or the person. */
 .maps {
     top: 40%;
     right: 40%;
-    transform: translate(120%, -90%);
+    width: 800px;
+    transform: translate(85%, -103%);
 }
 
 .map-heading {
@@ -369,7 +371,7 @@ can contact the company or the person. */
     padding: 25px;
 }
 
-#send-mail, #name {
+.send-mail, .name {
     width: 530px;
     height: 55px;
     border-radius: 50px;
@@ -380,7 +382,7 @@ can contact the company or the person. */
     padding: 5px;
 }
 
-#write-message {
+.write-message {
     border-radius: 23px;
     border: 1px solid #767693;
     color: #ffff;
@@ -390,7 +392,7 @@ can contact the company or the person. */
     padding: 10px;
 }
 
-#send {
+.send {
     width: 180px;
     height: 42px;
     background: #0000D5;
@@ -403,16 +405,18 @@ can contact the company or the person. */
     
 }
 
-#contact-title {
-    font-size: 40px;
-    font-weight: 500;
-    color: #F79431;
+.contact-form-text {
+    color:#F79431
 }
 
-#contact-description {
+.contact-title {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.contact-description {
     font-size: 20px;
     font-weight: 200;
-    color: #F79431;
 }
 
 /* Social Section */
@@ -430,7 +434,7 @@ can contact the company or the person. */
     gap: 5px;
     justify-items: right;
     color: #000;
-    font-size: 70px;
+    font-size: 40px;
     transform: translate(65%);
     width: 800px;
 }
