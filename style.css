@@ -45,7 +45,7 @@ contact page and company page, it's an easy access*/
 
 
 .navbar {
-    padding: 2.5%;
+    padding: 2%;
 }
 
 .nav {
@@ -61,6 +61,7 @@ contact page and company page, it's an easy access*/
 
 .navbar-light .navbar-nav .nav-link {
     color: #000;
+    font-size: 15px;
 }
 
 .navbar-light:hover .navbar-nav:hover .nav-link:hover {
