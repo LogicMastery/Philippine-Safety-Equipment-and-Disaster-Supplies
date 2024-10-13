@@ -171,6 +171,25 @@ all the list of the products will be on the product page*/
     transform: scale(1.1);
 }
 
+/* Product page for the list of the products*/
+.product-list {
+    max-width: 250px;
+    transition: transform 0.3s;
+    color: #F79431;
+}
+
+.product-list:hover {
+    transform: scale(1.1);
+}
+
+.product-position {
+    transform: translate(4%);
+}
+
+product-image {
+    width: 1453px;
+    height: 155px;
+}
 /* The section content is all about what we offer on our website, what is it about on our company,
 and what's so difference about our website, why you should buy our products */
 .section {
