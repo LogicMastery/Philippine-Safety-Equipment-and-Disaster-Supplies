@@ -103,6 +103,10 @@ contact page and company page, it's an easy access*/
 .navbar-toggler {
     border: none;
 }
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #fff;
+}
 /* Home page Section
  The Hero Section is the main title of the page, it also describe what we offer on the website.  */
 .hero-section {
@@ -278,11 +282,16 @@ can contact the company or the person. */
 /* Description icons for phone, email and location */
 .phone-icon {
     font-size: 75px;
+    transform: translate(22%);
 }
 
 .email-icon {
     font-size: 75px;
     transform: translate(-10%);
+}
+
+.location-icon {
+    font-size: 75px;
 }
 
 .icons {
@@ -451,7 +460,7 @@ can contact the company or the person. */
     font-weight: 500; 
     color: #F79431;
     text-align: right;
-    transform: translate(-35%);
+    transform: translate(-80%);
 }
 
 .social-links {
@@ -461,7 +470,7 @@ can contact the company or the person. */
     justify-items: right;
     color: #000;
     font-size: 40px;
-    transform: translate(65%);
+    transform: translate(-20%);
     width: 800px;
 }
 
