@@ -54,7 +54,6 @@ contact page and company page, it's an easy access*/
 
 .navbar-brand {
     color: #000;
-    transform: translate(-5%);
     font-size: 18px;
     font-weight: 600;
 }
@@ -183,12 +182,19 @@ all the list of the products will be on the product page*/
 }
 
 .product-position {
-    transform: translate(4%);
+    transform: translate(-1%);
 }
 
 product-image {
-    width: 1453px;
-    height: 155px;
+    transform: translate(0%, -100%);
+}
+
+.search-bar {
+    width: 241px;
+}
+
+.search-icon {
+    width: 40px;
 }
 /* The section content is all about what we offer on our website, what is it about on our company,
 and what's so difference about our website, why you should buy our products */
@@ -644,7 +650,7 @@ footer .footer-container .sec h2::before {
 
 footer .footer-container .sec p{
     color: #ffff;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .about-comp{
@@ -671,7 +677,7 @@ footer .footer-container .sec p{
     border-radius: 4px;
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 200;
     text-transform: uppercase;
 }
@@ -696,7 +702,7 @@ footer .footer-container .sec p{
     border-radius: 4px;
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 200;
     text-transform: uppercase;
 }
@@ -707,7 +713,7 @@ footer .footer-container .sec p{
 
 .work-time li:nth-child(1) {
     color: #ffff;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .work-time li {
@@ -715,7 +721,7 @@ footer .footer-container .sec p{
     margin-bottom: 16px;
     text-align: center;
     transform: translate(-15%);
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 200;
 }
 

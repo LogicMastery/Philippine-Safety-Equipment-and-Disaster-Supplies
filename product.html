@@ -17,7 +17,7 @@
 <body>
      <!-- Navigation Menu -->
      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand" href="index.html"><img src="icon/ltc-orig.png" alt="" class="img-logo">Philippine
                 Safety Equipment and Disaster Supplies</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -51,18 +51,25 @@
     </nav>
     <hr>
 
-    <div class="container-fluid">
+    <div class="container-fluid row-cols-md-12">
       <div class="card bg-dark text-white">
-        <img src="images/fog-8208493_1920.jpg" alt="..." class="card-img product-image">
+        <img src="images/fog-8208493_1920.jpg" alt="..." class="card-img" style="width: 1772px; height: 400px;">
         <div class="card-img-overlay">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title" style="color: #F79431; transform: translate(0%, 420%); font-size: 40px; text-transform: uppercase; font-weight: 500;">explore all products</h5>
         </div>
       </div>
 
     </div>
 
-    <!--List of products-->
     <div class="container">
+      <br><br>
+      <!--Search Bar-->
+      <form class="d-flex row-cols-md-4 justify-content-md-end">
+        <input class="form-control me-2 search-bar" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success search-icon" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>
+      
+      <!--List of products-->
       <br><br><br><br>
       <div class="row row-cols-2 row-cols-md-4 g-4 product-position" style="border: 1px solid red;">
         <!--Col 1-->
@@ -321,7 +328,7 @@
       </a>
     </div>
     </div>
-
+    <br><br>
     </div>
     </div>
     
