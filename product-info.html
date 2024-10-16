@@ -18,7 +18,8 @@
      <!-- Navigation Menu -->
      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="icon/ltc-orig.png" alt="" class="img-logo">Philippine Safety Equipment and Disaster Supplies</a>
+            <a class="navbar-brand" href="index.html"><img src="icon/ltc-orig.png" alt="" class="img-logo">Philippine
+                Safety Equipment and Disaster Supplies</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="icon"><i class="fa-solid fa-bars fa-2xl"></i></span>
@@ -32,17 +33,17 @@
                         <a class="nav-link" aria-current="page" href="company.html">Company</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" aria-current="page" href="#" id="product-dropdown"
+                        <a class="nav-link active dropdown-toggle" aria-current="page" href="#" id="product-dropdown"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Products
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="product-dropdown">
-                            <li><a class="nav-link dropdown-item" href="#">Product</a></li>
-                            <li><a class="nav-link dropdown-item" href="#">Customize Your Kit</a></li>
+                            <li><a class="nav-link active dropdown-item" aria-current="page" href="product.html">Product</a></li>
+                            <li><a class="nav-link dropdown-item" href="customize-your-kit.html">Customize Your Kit</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                        <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -52,18 +53,199 @@
 
     <div class="container">
         <!--Product info making the card not overlapping with the navigation menu-->
-        <div class="row g-0 bg-light position-relative">
+        <div class="row g-0 bg-white position-relative" style="transform: translate(0, 22%);">
             <div class="col-md-6 mb-md-0 p-md-4">
               <img src="images/car-8514314_1920.png" class="w-100" alt="...">
             </div>
             <div class="col-md-6 p-4 ps-md-0" style="color: #000;">
-              <h5 class="mt-0" style="font-size: 72px; text-transform: uppercase; transform: translate(0, 120%);">Product title</h5>
-              <p style="font-size: 15px; transform: translate(0, 380%);">SKU: N1430 - IN STOCK</p>
-              <h5 style="font-size: 60px; transform: translate(0, 140%);">$199.99</h5>
-              <a href="#" class="stretched-link"><button style="transform: translate(0, 380%);">Go somewhere</button></a>
+              <h5 class="mt-0" style="font-size: 72px; text-transform: uppercase;">Product title</h5>
+              <p style="font-size: 15px; transform: translate(0, -45%);">SKU: N1430 - IN STOCK</p>
+              <h5 style="font-size: 60px;">$199.99</h5>
+              <button style="text-transform: uppercase;">Buy Now</button>
             </div>
           </div>
+
+          <br><br><br><br><br><br>
+          <div class="card" style="border: none;">
+            <h3 class="card-title text-uppercase" style="color: #f79431;">Product Description:</h3>
+              <div class="card-body" style="color: #000;">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur. At pretium enim 
+                  nulla at venenatis auctor. Proin a quam sit ornare mattis. Donec id fermentum 
+                  molestie blandit. Id aliquam nunc id eget pellentesque faucibus cursus. 
+                  Magna in a amet pulvinar mattis augue sit nulla ac. Odio eleifend a 
+                  pellentesque varius eget odio sed. Lacus sed ultricies purus vel massa pellentesque.
+                   Faucibus sem neque sapien maecenas ultricies molestie leo vestibulum tellus. 
+                   Vel dictum consectetur orci phasellus interdum quam libero. </p>
+              </div>
+
+          </div>
+
+          <!--Additional information-->
+          <br>
+          <div class="row">
+            <h3 class="card-title text-uppercase" style="color: #f79431;">additional info:</h3>
+            <div class="col-sm-4">
+              <div class="card" style="border: none;">
+                <div class="card-body" style="color: #000;">
+                  <h5 class="card-title text-uppercase" style="color: #9C9C9C;">weight</h5>
+                  <p class="card-text text-uppercase">2kg</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="card" style="border: none;">
+                <div class="card-body" style="color: #000;">
+                  <h5 class="card-title text-uppercase" style="color: #9C9C9C;">label condition</h5>
+                  <p class="card-text text-uppercase">good</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="card" style="border: none;">
+                <div class="card-body" style="color: #000;">
+                  <h5 class="card-title text-uppercase" style="color: #9C9C9C;">box</h5>
+                  <p class="card-text text-uppercase">yes/good condition</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br>
+          <h3 class="card-title text-uppercase" style="color: #f79431;">related products:</h3>
+          <div class="row row-cols-2 row-cols-md-4 g-4 product-position">
+            <!--Col 1-->
+            <div class="col">
+              <a href="product-info.html" class="link-style">
+            
+                <div class="card border-dark h-100 product-link">
+                  <img src="products/datrex-emergency-water.png" class="card-img-top" alt="...">
+                  <div class="card-body" style="color: #000; text-align: center;">
+                    <h5 class="card-title" style="text-transform: uppercase; color: #F79431;">datrex emergency water</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This card has even longer content than the first to show that equal
+                      height
+                      action.</p>
+                  </div>
+              </a>
+            </div>
+            </div>
+    
+            <div class="col">
+              <a href="#" class="link-style">
+        
+                <div class="card border-dark h-100 product-link">
+                  <img src="products/celox-hemostatic-granules.png" class="card-img-top" alt="...">
+                  <div class="card-body" style="color: #000; text-align: center;">
+                    <h5 class="card-title" style="text-transform: uppercase; color: #F79431;">celox hemostatic granules</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                  </div>
+              </a>
+            </div>
+          </div>
+        
+          <div class="col">
+            <a href="#" class="link-style">
+        
+              <div class="card border-dark h-100 product-link">
+                <img src="products/emergency-blanket.png" class="card-img-top" alt="...">
+                <div class="card-body" style="color: #000; text-align: center;">
+                  <h5 class="card-title" style="text-transform: uppercase; color: #F79431;">emergency blanket</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                    content.
+                  </p>
+                </div>
+            </a>  
+          </div>
+        </div>
+        
+        <div class="col">
+          <a href="#" class="link-style">
+        
+            <div class="card border-dark h-100 product-link">
+              <img src="products/first-aid-kit.png" class="card-img-top" alt="...">
+              <div class="card-body" style="color: #000; text-align: center;">
+                <h5 class="card-title" style="text-transform: uppercase; color: #F79431;">first aid kit</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                  additional content. This card has even longer content than the first to show that equal
+                  height
+                  action.</p>
+              </div>
+          </a>
+        </div>
+        </div>
+    
+    
+        <!--Col 2-->
+        <div class="col">
+          <a href="#" class="link-style">
+        
+            <div class="card border-dark h-100 product-link">
+              <img src="products/emergency-food-ration-bars.png" class="card-img-top" alt="...">
+              <div class="card-body" style="color: #000; text-align: center;">
+                <h5 class="card-title" style="text-transform: uppercase; color: #F79431;">emergency food ration bars</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                  additional content. This card has even longer content than the first to show that equal
+                  height
+                  action.</p>
+              </div>
+          </a>
+        </div>
+        </div>
+    
+        <div class="col">
+          <a href="#" class="link-style">
+        
+            <div class="card border-dark h-100 product-link">
+              <img src="products/ready-hour-2400-calorie-emergency-ration-bars.png" class="card-img-top" alt="...">
+              <div class="card-body" style="color: #000; text-align: center;">
+                <h5 class="card-title" style="text-transform: uppercase; color: #F79431;">ready hour 2400 calorie emergency ration bars</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                  additional content. This card has even longer content than the first to show that equal
+                  height
+                  action.</p>
+              </div>
+          </a>
+        </div>
+        </div>
+    
+        <div class="col">
+          <a href="#" class="link-style">
+        
+            <div class="card border-dark h-100 product-link">
+              <img src="products/celox-a.png" class="card-img-top" alt="...">
+              <div class="card-body" style="color: #000; text-align: center;">
+                <h5 class="card-title" style="text-transform: uppercase; color: #F79431;">celox-a</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                  additional content. This card has even longer content than the first to show that equal
+                  height
+                  action.</p>
+              </div>
+          </a>
+        </div>
+        </div>
+    
+        <div class="col">
+          <a href="#" class="link-style">
+        
+            <div class="card border-dark h-100 product-link">
+              <img src="products/t6-rechargeable-flashlight-zoomable.png" class="card-img-top" alt="...">
+              <div class="card-body" style="color: #000; text-align: center;">
+                <h5 class="card-title" style="text-transform: uppercase; color: #F79431;">t6 rechargeable flashlight zoomable</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                  additional content. This card has even longer content than the first to show that equal
+                  height
+                  action.</p>
+              </div>
+          </a>
+        </div>
+        </div>
+
     </div>
+          </div>
+      
 
    <!-- Footer -->
    <footer class="bg-navy-blue py-7">
