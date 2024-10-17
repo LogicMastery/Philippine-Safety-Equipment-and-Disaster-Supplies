@@ -19,6 +19,9 @@ body {
     color: white;
 }
 
+:root {
+    --purchase-form-color: linear-gradient(90deg, rgba(0,0,128,1) 0%, rgba(0,0,238,1) 100%); 
+}
 .header, .hero-section, .product-links, .section, footer {
     padding: 20px;
 }
@@ -228,7 +231,10 @@ product-image {
     color: #fff;
 }
 
-
+/* Purchase page */
+.purchase-form {
+    background-color: var(--purchase-form-color)
+}
 
 /* The section content is all about what we offer on our website, what is it about on our company,
 and what's so difference about our website, why you should buy our products */
@@ -771,18 +777,16 @@ footer {
 .footer-logo {
     width: 95px;
     height: 95px;
-    transform: translate(210%);
+    transform: translate(110%);
 }
 
 .copyright-text {
-    position: absolute;
+    position: relative;
     width: 700px;
-    line-height: 10px;
     text-align: center;
     bottom: 0;
-    transform: translate(70%);
+    transform: translate(86%, 150%);
 }
-
 /* Responsive Design for mobile and tablet version */
 
 @media only screen and (max-width: 1300px) {
