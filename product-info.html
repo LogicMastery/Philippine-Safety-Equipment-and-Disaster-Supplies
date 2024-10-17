@@ -55,17 +55,67 @@
         <!--Product info making the card not overlapping with the navigation menu-->
         <div class="row g-0 bg-white position-relative" style="transform: translate(0, 22%);">
             <div class="col-md-6 mb-md-0 p-md-4">
-              <img src="images/car-8514314_1920.png" class="w-100" alt="...">
-            </div>
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: #000;"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: #000;"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" style="background-color: #000;"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4" style="background-color: #000;"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="products/no-name-4(1).png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="products/no-name-4(2).png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="products/no-name-4(3).png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="products/no-name-4(4).png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: #000;"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: #000;"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              </div>
             <div class="col-md-6 p-4 ps-md-0" style="color: #000;">
-              <h5 class="mt-0" style="font-size: 72px; text-transform: uppercase;">Product title</h5>
-              <p style="font-size: 15px; transform: translate(0, -45%);">SKU: N1430 - IN STOCK</p>
-              <h5 style="font-size: 60px;">$199.99</h5>
-              <button style="text-transform: uppercase;">Buy Now</button>
+              <h5 class="mt-0" style="font-size: 40px; text-transform: uppercase;">Product title</h5>
+              <p style="font-size: 12px; transform: translate(0, -45%);">SKU: N1430 - IN STOCK</p>
+              <h5 style="font-size: 24px;">$199.99</h5>
+              
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+              <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="border: 1px solid #000; background-color: #fff;">
+                  QTY
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <li><a class="dropdown-item" href="#">1</a></li>
+                  <li><a class="dropdown-item" href="#">2</a></li>
+                  <li><a class="dropdown-item" href="#">3</a></li>
+                  <li><a class="dropdown-item" href="#">4</a></li>
+                  <li><a class="dropdown-item" href="#">5</a></li>
+                  <li><a class="dropdown-item" href="#">6</a></li>
+                  <li><a class="dropdown-item" href="#">7</a></li>
+                  <li><a class="dropdown-item" href="#">8</a></li>
+                  <li><a class="dropdown-item" href="#">9</a></li>
+                  <li><a class="dropdown-item" href="#">10</a></li>
+                </ul>
+              </div>
+                <button type="button" class="btn btn-light text-uppercase" style="border: 1px solid #000; background-color: #fff;">add to cart</button>
+              </div>
+              <button type="button" class="btn text-uppercase buy-now-btn">buy now</button>
             </div>
           </div>
 
-          <br><br><br><br><br><br>
+          <br><br><br><br><br><br><br><br><br>
           <div class="card" style="border: none;">
             <h3 class="card-title text-uppercase" style="color: #f79431;">Product Description:</h3>
               <div class="card-body" style="color: #000;">
@@ -113,7 +163,10 @@
           </div>
 
           <br>
-          <h3 class="card-title text-uppercase" style="color: #f79431;">related products:</h3>
+          <div class="col">
+            <h3 class="card-title text-uppercase" style="color: #f79431;">related products:</h3>
+          </div>
+
           <div class="row row-cols-2 row-cols-md-4 g-4 product-position">
             <!--Col 1-->
             <div class="col">
