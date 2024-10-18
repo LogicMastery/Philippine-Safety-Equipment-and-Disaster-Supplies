@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Calibre', sans-serif;
 }
 
 body, h1, p, ul, li {
@@ -233,9 +234,53 @@ product-image {
 
 /* Purchase page */
 .purchase-form {
-    background-color: var(--purchase-form-color)
+    transform: translate(120%, 20%);
+    background: rgb(0,0,128);
+    background: linear-gradient(90deg, rgba(0,0,128,1) 0%, rgba(0,0,238,1) 100%);
+    max-width: 508px; 
+    border-radius: 50px;
+    padding: 20px;
 }
 
+.bg-purchase-input {
+    background: rgb(0,0,128);
+    background: linear-gradient(90deg, rgba(0,0,128,1) 0%, rgba(0,0,238,1) 100%); 
+}
+
+.purchase-name, .purchase-email, .purchase-number, .purchase-message {
+    max-width: 429px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 200;
+    transform: translate(3%);
+} 
+
+.purchase-send {
+    width: 217px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    transform: translate(53%);
+}
+
+.purchase-heading {
+    text-align: center;
+}
+
+.purchase-message {
+    resize: none;
+}
+/* for firefox browser */
+.purchase-number[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* for chrome, safari and edge browser */
+.purchase-number {
+    -webkit-appearance: none;
+}
 /* The section content is all about what we offer on our website, what is it about on our company,
 and what's so difference about our website, why you should buy our products */
 .section {
