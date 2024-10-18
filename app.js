@@ -6,4 +6,4 @@ const navLinks = document.querySelectorAll('nav a').forEach(link => {
     }
 });
 
-let NumPlaceholder = document.querySelector('NumPurchasePlaceholder').placeholder = "Phone Number";
+// Search a product items

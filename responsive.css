@@ -1,0 +1,73 @@
+/* Responsive Design for mobile and tablet version */
+
+@media only screen and (max-width: 1300px) {
+    .hero-image {
+        transform: translate(1%, 3%);
+    }
+    
+    .headline {
+        transform: translate(110%, 20%);
+    }
+    
+    @media only screen and (max-width: 1200px) {
+        .hero-image {
+            transform: translate(1%, 3%);
+        }
+        
+        .headline {
+            transform: translate(120%, 20%);
+        }
+    }
+    
+    @media only screen and (max-width: 992px) {
+        .hero-image {
+            transform: translate(1%, 3%);
+        }
+        
+        .headline {
+            transform: translate(150%, 20%);
+        }
+    }
+    
+}
+   
+    @media only screen and (max-width: 768px) {
+        .hero-image {
+            transform: translate(1%, 3%);
+        }
+        
+        .headline {
+            transform: translate(175%, 20%);
+        }
+    }
+   
+    @media only screen and (max-width: 576px) {
+        .hero-image {
+            transform: translate(1%, 3%);
+        }
+        
+        .headline {
+            transform: translate(350%, 15%);
+            width: 400px;
+        }
+
+        .hook {
+            font-size: 60px;
+        }
+
+        .placeholder {
+            font-size: 20px;
+        }
+    }
+
+@media only screen and (max-width: 900px) {
+    .navbar-brand {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .navbar-brand {
+        font-size: 10px;
+    }
+}
