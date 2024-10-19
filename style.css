@@ -274,12 +274,12 @@ product-image {
 }
 /* for firefox browser */
 .purchase-number[type=number] {
-    -moz-appearance: textfield;
+    -moz-appearance-: textfield;
 }
 
 /* for chrome, safari and edge browser */
 .purchase-number {
-    -webkit-appearance: none;
+    -webkit-appearance-: none;
 }
 /* The section content is all about what we offer on our website, what is it about on our company,
 and what's so difference about our website, why you should buy our products */
