@@ -1,6 +1,6 @@
 /* Responsive Design for mobile and tablet version */
-
-@media only screen and (max-width: 1300px) {
+/* Home page */
+@media screen and (max-width: 1300px) {
     .hero-image {
         transform: translate(1%, 3%);
     }
@@ -9,7 +9,7 @@
         transform: translate(110%, 20%);
     }
     
-    @media only screen and (max-width: 1200px) {
+    @media screen and (max-width: 1200px) {
         .hero-image {
             transform: translate(1%, 3%);
         }
@@ -19,7 +19,7 @@
         }
     }
     
-    @media only screen and (max-width: 992px) {
+    @media screen and (max-width: 992px) {
         .hero-image {
             transform: translate(1%, 3%);
         }
@@ -30,8 +30,17 @@
     }
     
 }
+
+@media screen and (max-width: 900px) {
+    .card-position {
+        transform: translate(80%);
+    }
+    .navbar-brand {
+        font-size: 10px;
+    }
+}
    
-    @media only screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
         .hero-image {
             transform: translate(1%, 3%);
         }
@@ -41,7 +50,11 @@
         }
     }
    
-    @media only screen and (max-width: 576px) {
+    @media screen and (max-width: 576px) {
+        .card-position {
+            transform: translate(72%);
+            border-width: 220px;
+        }
         .hero-image {
             transform: translate(1%, 3%);
         }
@@ -60,13 +73,10 @@
         }
     }
 
-@media only screen and (max-width: 900px) {
-    .navbar-brand {
-        font-size: 15px;
+@media screen and (max-width: 430px) {
+    .card-position {
+        transform: translate(110%);
     }
-}
-
-@media only screen and (max-width: 430px) {
     .navbar-brand {
         font-size: 10px;
     }

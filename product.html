@@ -70,313 +70,297 @@
     <!--Search Bar-->
     <form class="d-flex row-cols-md-4 justify-content-md-end">
       <input class="form-control me-2 search-bar" type="search" placeholder="Search" aria-label="Search"
-        id="SearchItem">
+        id="SearchItem" onsubmit="SearchProduct()">
       <button class="btn btn-outline-success search-icon" type="submit"><i
           class="fa-solid fa-magnifying-glass"></i></button>
     </form>
 
     <!--List of products-->
     <br><br><br><br>
-    <div class="row row-cols-2 row-cols-md-4 g-4 product-position product-list" style="border: 1px solid red;">
-      <!--Col 1-->
+    <div class="row row-cols-2 row-cols-md-4 g-4 product-position product-items" id="product-items" style="border: 1px solid red;">
+        <!--Col 1-->
+        <div class="col">
+          <div class="product">
+            <a href="product-info.html" class="link-style">
+              <div class="card border-dark h-100 product-link">
+                <img src="products/datrex-emergency-water.png" class="card-img-top" alt="...">
+                <div class="card-body" style="color: #000; text-align: center;">
+                  <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">datrex
+                    emergency water</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This card has even longer content than the first to show that equal
+                    height
+                    action.</p>
+              </div>
+            </a>
+        </div>
+          </div>
+      </div>
+  
       <div class="col">
         <div class="product">
           <a href="product-info.html" class="link-style">
             <div class="card border-dark h-100 product-link">
-              <img src="products/datrex-emergency-water.png" class="card-img-top" alt="...">
+              <img src="products/celox-hemostatic-granules.png" class="card-img-top" alt="...">
               <div class="card-body" style="color: #000; text-align: center;">
-                <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">datrex
-                  emergency water</h5>
+                <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">celox
+                  hemostatic granules</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This card has even longer content than the first to show that equal
-                  height
-                  action.</p>
-              </div>
+                  additional content. This content is a little bit longer.</p>
             </div>
           </a>
-        </div>
       </div>
+        </div>
     </div>
-
+  
     <div class="col">
       <div class="product">
         <a href="product-info.html" class="link-style">
           <div class="card border-dark h-100 product-link">
-            <img src="products/celox-hemostatic-granules.png" class="card-img-top" alt="...">
+            <img src="products/emergency-blanket.png" class="card-img-top" alt="...">
             <div class="card-body" style="color: #000; text-align: center;">
-              <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">celox
-                hemostatic granules</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.</p>
-            </div>
+              <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">emergency
+                blanket</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                content.
+              </p>
           </div>
         </a>
+    </div>
       </div>
     </div>
-  </div>
-
-  <div class="col">
-    <div class="product">
-      <a href="product-info.html" class="link-style">
-        <div class="card border-dark h-100 product-link">
-          <img src="products/emergency-blanket.png" class="card-img-top" alt="...">
-          <div class="card-body" style="color: #000; text-align: center;">
-            <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">emergency
-              blanket</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional
-              content.
-            </p>
+  
+    <div class="col">
+      <div class="product">
+        <a href="product-info.html" class="link-style">
+          <div class="card border-dark h-100 product-link">
+            <img src="products/first-aid-kit.png" class="card-img-top" alt="...">
+            <div class="card-body" style="color: #000; text-align: center;">
+              <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">first aid kit
+              </h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                additional content. This card has even longer content than the first to show that equal
+                height
+                action.</p>
           </div>
-        </div>
-      </a>
+        </a>
     </div>
-  </div>
-  </div>
-
-  <div class="col">
-    <div class="product">
-      <a href="product-info.html" class="link-style">
-        <div class="card border-dark h-100 product-link">
-          <img src="products/first-aid-kit.png" class="card-img-top" alt="...">
-          <div class="card-body" style="color: #000; text-align: center;">
-            <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">first aid kit
-            </h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-              additional content. This card has even longer content than the first to show that equal
-              height
-              action.</p>
+      </div>
+    </div>
+  
+  
+    <!--Col 2-->
+    <div class="col">
+      <div class="product">
+        <a href="product-info.html" class="link-style">
+          <div class="card border-dark h-100 product-link">
+            <img src="products/emergency-food-ration-bars.png" class="card-img-top" alt="...">
+            <div class="card-body" style="color: #000; text-align: center;">
+              <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">emergency
+                food ration bars</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                additional content. This card has even longer content than the first to show that equal
+                height
+                action.</p>
           </div>
-        </div>
-      </a>
+        </a>
     </div>
-  </div>
-  </div>
-
-
-  <!--Col 2-->
-  <div class="col">
-    <div class="product">
-      <a href="product-info.html" class="link-style">
-        <div class="card border-dark h-100 product-link">
-          <img src="products/emergency-food-ration-bars.png" class="card-img-top" alt="...">
-          <div class="card-body" style="color: #000; text-align: center;">
-            <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">emergency
-              food ration bars</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-              additional content. This card has even longer content than the first to show that equal
-              height
-              action.</p>
+      </div>
+    </div>
+  
+    <div class="col">
+      <div class="product">
+        <a href="product-info.html" class="link-style">
+          <div class="card border-dark h-100 product-link">
+            <img src="products/ready-hour-2400-calorie-emergency-ration-bars.png" class="card-img-top" alt="...">
+            <div class="card-body" style="color: #000; text-align: center;">
+              <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">ready hour
+                2400 calorie emergency ration bars</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                additional content. This card has even longer content than the first to show that equal
+                height
+                action.</p>
           </div>
-        </div>
-      </a>
+        </a>
     </div>
-  </div>
-  </div>
-
-  <div class="col">
-    <div class="product">
-      <a href="product-info.html" class="link-style">
-        <div class="card border-dark h-100 product-link">
-          <img src="products/ready-hour-2400-calorie-emergency-ration-bars.png" class="card-img-top" alt="...">
-          <div class="card-body" style="color: #000; text-align: center;">
-            <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">ready hour
-              2400 calorie emergency ration bars</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-              additional content. This card has even longer content than the first to show that equal
-              height
-              action.</p>
+      </div>
+    </div>
+  
+    <div class="col">
+      <div class="product">
+        <a href="#" class="link-style">
+          <div class="card border-dark h-100 product-link">
+            <img src="products/celox-a.png" class="card-img-top" alt="...">
+            <div class="card-body" style="color: #000; text-align: center;">
+              <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">celox-a</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                additional content. This card has even longer content than the first to show that equal
+                height
+                action.</p>
           </div>
-        </div>
-      </a>
+        </a>
     </div>
-  </div>
-  </div>
-
-  <div class="col">
-    <div class="product">
-      <a href="#" class="link-style">
-        <div class="card border-dark h-100 product-link">
-          <img src="products/celox-a.png" class="card-img-top" alt="...">
-          <div class="card-body" style="color: #000; text-align: center;">
-            <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">celox-a</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-              additional content. This card has even longer content than the first to show that equal
-              height
-              action.</p>
+      </div>
+    </div>
+  
+    <div class="col">
+      <div class="product">
+        <a href="product-info.html" class="link-style">
+          <div class="card border-dark h-100 product-link">
+            <img src="products/t6-rechargeable-flashlight-zoomable.png" class="card-img-top" alt="...">
+            <div class="card-body" style="color: #000; text-align: center;">
+              <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">t6
+                rechargeable flashlight zoomable</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                additional content. This card has even longer content than the first to show that equal
+                height
+                action.</p>
           </div>
-        </div>
-      </a>
+        </a>
     </div>
-  </div>
-  </div>
-
-  <div class="col">
-    <div class="product">
-      <a href="product-info.html" class="link-style">
-        <div class="card border-dark h-100 product-link">
-          <img src="products/t6-rechargeable-flashlight-zoomable.png" class="card-img-top" alt="...">
-          <div class="card-body" style="color: #000; text-align: center;">
-            <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">t6
-              rechargeable flashlight zoomable</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-              additional content. This card has even longer content than the first to show that equal
-              height
-              action.</p>
+      </div>
+    </div>
+  
+    <!--Col 3-->
+  
+    <div class="col">
+      <div class="product">
+        <a href="product-info.html" class="link-style">
+          <div class="card border-dark h-100 product-link">
+            <img src="products/emergency-sleeping-bag-with-pouch-and-whistle.png" class="card-img-top" alt="...">
+            <div class="card-body" style="color: #000; text-align: center;">
+              <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">emergency
+                sleeping bag with pouch and whistle</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                additional content. This card has even longer content than the first to show that equal
+                height
+                action.</p>
           </div>
-        </div>
-      </a>
+        </a>
     </div>
-  </div>
-  </div>
-
-  <!--Col 3-->
-
-  <div class="col">
-    <div class="product">
-      <a href="product-info.html" class="link-style">
-        <div class="card border-dark h-100 product-link">
-          <img src="products/emergency-sleeping-bag-with-pouch-and-whistle.png" class="card-img-top" alt="...">
-          <div class="card-body" style="color: #000; text-align: center;">
-            <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">emergency
-              sleeping bag with pouch and whistle</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-              additional content. This card has even longer content than the first to show that equal
-              height
-              action.</p>
+      </div>
+    </div>
+  
+    <div class="col">
+      <div class="product">
+        <a href="product-info.html" class="link-style">
+          <div class="card border-dark h-100 product-link">
+            <img src="products/emergency-sleeping-bag.png" class="card-img-top" alt="...">
+            <div class="card-body" style="color: #000; text-align: center;">
+              <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">emergency
+                sleeping bag</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                additional content. This card has even longer content than the first to show that equal
+                height
+                action.</p>
           </div>
-        </div>
-      </a>
+        </a>
     </div>
-  </div>
-  </div>
-
-  <div class="col">
-    <div class="product">
-      <a href="product-info.html" class="link-style">
-        <div class="card border-dark h-100 product-link">
-          <img src="products/emergency-sleeping-bag.png" class="card-img-top" alt="...">
-          <div class="card-body" style="color: #000; text-align: center;">
-            <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">emergency
-              sleeping bag</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-              additional content. This card has even longer content than the first to show that equal
-              height
-              action.</p>
+      </div>
+    </div>
+  
+    <div class="col">
+      <div class="product">
+        <a href="product-info.html" class="link-style">
+          <div class="card border-dark h-100 product-link">
+            <img src="products/no-name-1.png" class="card-img-top" alt="...">
+            <div class="card-body" style="color: #000; text-align: center;">
+              <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">no name 1</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                additional content. This card has even longer content than the first to show that equal
+                height
+                action.</p>
           </div>
-        </div>
-      </a>
+        </a>
     </div>
-  </div>
-  </div>
-
-  <div class="col">
-    <div class="product">
-      <a href="product-info.html" class="link-style">
-        <div class="card border-dark h-100 product-link">
-          <img src="products/no-name-1.png" class="card-img-top" alt="...">
-          <div class="card-body" style="color: #000; text-align: center;">
-            <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">no name 1</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-              additional content. This card has even longer content than the first to show that equal
-              height
-              action.</p>
+      </div>
+    </div>
+  
+    <div class="col">
+      <div class="product">
+        <a href="product-info.html" class="link-style">
+          <div class="card border-dark h-100 product-link">
+            <img src="products/no-name-2.png" class="card-img-top" alt="...">
+            <div class="card-body" style="color: #000; text-align: center;">
+              <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">no name 2</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                additional content. This card has even longer content than the first to show that equal
+                height
+                action.</p>
           </div>
-        </div>
-      </a>
+        </a>
     </div>
-  </div>
-  </div>
-
-  <div class="col">
-    <div class="product">
-      <a href="product-info.html" class="link-style">
-        <div class="card border-dark h-100 product-link">
-          <img src="products/no-name-2.png" class="card-img-top" alt="...">
-          <div class="card-body" style="color: #000; text-align: center;">
-            <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">no name 2</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-              additional content. This card has even longer content than the first to show that equal
-              height
-              action.</p>
+      </div>
+    </div>
+    <!--Col 4-->
+  
+    <div class="col">
+      <div class="product">
+        <a href="product-info.html" class="link-style">
+          <div class="card border-dark h-100 product-link">
+            <img src="products/no-name-3.png" class="card-img-top" alt="...">
+            <div class="card-body" style="color: #000; text-align: center;">
+              <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">no name 3</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                additional content. This card has even longer content than the first to show that equal
+                height
+                action.</p>
           </div>
-        </div>
-      </a>
+        </a>
     </div>
-  </div>
-  </div>
-  <!--Col 4-->
-
-  <div class="col">
-    <div class="product">
-      <a href="product-info.html" class="link-style">
-        <div class="card border-dark h-100 product-link">
-          <img src="products/no-name-3.png" class="card-img-top" alt="...">
-          <div class="card-body" style="color: #000; text-align: center;">
-            <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">no name 3</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-              additional content. This card has even longer content than the first to show that equal
-              height
-              action.</p>
+      </div>
+    </div>
+  
+    <div class="col">
+      <div class="product">
+        <a href="product-info.html" class="link-style">
+          <div class="card border-dark h-100 product-link">
+            <img src="products/no-name-4(1).png" class="card-img-top" alt="...">
+            <div class="card-body" style="color: #000; text-align: center;">
+              <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">no name 4</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                additional content. This card has even longer content than the first to show that equal
+                height
+                action.</p>
           </div>
-        </div>
-      </a>
+        </a>
     </div>
-  </div>
-  </div>
-
-  <div class="col">
-    <div class="product">
-      <a href="product-info.html" class="link-style">
-        <div class="card border-dark h-100 product-link">
-          <img src="products/no-name-4(1).png" class="card-img-top" alt="...">
-          <div class="card-body" style="color: #000; text-align: center;">
-            <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">no name 4</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-              additional content. This card has even longer content than the first to show that equal
-              height
-              action.</p>
+      </div>
+    </div>
+  
+    <div class="col">
+      <div class="product">
+        <a href="product-info.html" class="link-style">
+          <div class="card border-dark h-100 product-link">
+            <img src="products/no-name-5(1).png" class="card-img-top" alt="...">
+            <div class="card-body" style="color: #000; text-align: center;">
+              <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">no name 5</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                additional content. This card has even longer content than the first to show that equal
+                height
+                action.</p>
           </div>
-        </div>
-      </a>
+        </a>
     </div>
-  </div>
-  </div>
-
-  <div class="col">
-    <div class="product">
-      <a href="product-info.html" class="link-style">
-        <div class="card border-dark h-100 product-link">
-          <img src="products/no-name-5(1).png" class="card-img-top" alt="...">
-          <div class="card-body" style="color: #000; text-align: center;">
-            <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">no name 5</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-              additional content. This card has even longer content than the first to show that equal
-              height
-              action.</p>
+      </div>
+    </div>
+  
+    <div class="col">
+      <div class="product">
+        <a href="product-info.html" class="link-style">
+          <div class="card border-dark h-100 product-link">
+            <img src="products/no-name-6(2).png" class="card-img-top" alt="...">
+            <div class="card-body" style="color: #000; text-align: center;">
+              <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">no name 6</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                additional content. This card has even longer content than the first to show that equal
+                height
+                action.</p>
           </div>
-        </div>
-      </a>
+        </a>
     </div>
-  </div>
-  </div>
-
-  <div class="col">
-    <div class="product">
-      <a href="product-info.html" class="link-style">
-        <div class="card border-dark h-100 product-link">
-          <img src="products/no-name-6(2).png" class="card-img-top" alt="...">
-          <div class="card-body" style="color: #000; text-align: center;">
-            <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">no name 6</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-              additional content. This card has even longer content than the first to show that equal
-              height
-              action.</p>
-          </div>
-        </div>
-      </a>
+      </div>
     </div>
-  </div>
-  </div>
 
   </div>
   <br><br>

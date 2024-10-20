@@ -7,22 +7,20 @@ const navLinks = document.querySelectorAll('nav a').forEach(link => {
 });
 
 // Search a product items
+// Figure out how to make it search for an item
 const SearchProduct = () =>{
     const searchbox = document.getElementById('SearchItem').value.toUpperCase();
-    const storeItems = document.getElementById('product-list');
+    const storeItems = document.getElementById('product-items');
     const product = document.querySelectorAll('.product');
     const pname = document.getElementsByTagName('h5')
 
-    for(let i=0; i < pname.length; i++){
-        let match = product[i].getElementsByTagName('h2')[0];
-        if(match){
-            let textvalue = match.textContent || match.innerHTML;
-
-            if(textvalue.toUpperCase().indexOf() > -1){
-                product[i].style.display = "";
-            }else{
-                product[i].style.display = "none";
-            }
+    for(let i = 0; i < pname.length; i++){
+        match = product[i].getElementsByTagName('h5')[0];
+        txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
         }
     }
-}
