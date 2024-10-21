@@ -41,6 +41,9 @@
 }
    
     @media screen and (max-width: 768px) {
+        .content-pos {
+            transform: translate(72%);
+        }
         .hero-image {
             transform: translate(1%, 3%);
         }
@@ -50,10 +53,31 @@
         }
     }
    
+    @media screen and (max-width: 764px) {
+        footer .footer-container {
+            width: 100%;
+            display: grid;
+            grid-template-rows: 100px 1fr 1fr 1fr 1fr;
+            grid-gap: 20px;
+        }
+        .card-position {
+            transform: translate(109%);
+        }
+        .content-pos {
+            transform: translate(120%);
+        }
+    }
     @media screen and (max-width: 576px) {
+
+        .content-pos {
+            transform: translate(72%);
+        }
         .card-position {
             transform: translate(72%);
-            border-width: 220px;
+        }
+
+        .navbar-brand {
+            font-size: 15px;
         }
         .hero-image {
             transform: translate(1%, 3%);
