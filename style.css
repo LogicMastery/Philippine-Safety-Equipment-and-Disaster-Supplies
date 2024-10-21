@@ -219,6 +219,19 @@ product-image {
     color: #000;
 }
 
+.categories {
+    text-decoration: none;
+    color: #000;
+}
+
+.categories:hover {
+    color: #767693;
+}
+
+.categories:active {
+    color: #F79431;
+}
+
 /* product info page */
 .buy-now-btn {
     background-color: #000080;
