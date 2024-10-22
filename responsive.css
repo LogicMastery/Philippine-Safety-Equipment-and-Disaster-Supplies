@@ -95,24 +95,31 @@
             transform: translate(50%);
         }
     }
-
+    
     @media (max-width: 485px){
         .content-pos {
-            transform: translate(140%);
+            transform: translate(307%);
+            width: 470px;
         }
         .card-position {
-            transform: translate(127%);
+            display: grid;
+            grid-template-rows: 420px 420px 420px 420px;
+            transform: translate(350%);
+            width: 22%
+        }
+        .product {
+            width: 400px;
         }
 
         .navbar-brand {
-            font-size: 15px;
+            font-size: 12px;
         }
         .hero-image {
             transform: translate(1%, 3%);
         }
         
         .headline {
-            transform: translate(350%, 15%);
+            transform: translate(365%, 15%);
             width: 400px;
         }
 
@@ -125,63 +132,4 @@
         }
     }
 
-    /* @media screen and (max-width: 440px) {
-        .content-pos {
-            transform: translate(140%);
-        }
-        .card-position {
-            transform: translate(125%);
-        }
-
-        .navbar-brand {
-            font-size: 15px;
-        }
-        .hero-image {
-            transform: translate(1%, 3%);
-        }
-        
-        .headline {
-            transform: translate(350%, 15%);
-            width: 400px;
-        }
-
-        .hook {
-            font-size: 60px;
-        }
-
-        .placeholder {
-            font-size: 20px;
-        } 
-    }
-
-    @media screen and (min-width: 428px) {
-    .card-position {
-        display: grid;
-        grid-template-rows: 400px 400px 400px 400px;
-        transform: translate(90%);
-        width: 60%;
-        align-items: center;
-    }
-    .navbar-brand {
-        font-size: 10px;
-        transform: translate(-10%);
-    }
-    .icon, .navbar-toggler{
-        transform: translate(-2120%);
-    }
-    .nav-item, .navbar-nav {
-        transform: translate(-2%);
-    }
-
-    .nav-link::before {
-        content: "";
-        position: absolute;
-        bottom: -2px;
-        height: 4px;
-        width: 18%;
-        background: #F79431;
-        border-radius: 50px;
-        transform: scale(0);
-        transition: transform 0.2s linear;
-}
-    } */
+  
