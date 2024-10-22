@@ -232,6 +232,11 @@ product-image {
     color: #F79431;
 }
 
+.category-group {
+    width: 18%;
+    transform: translate(-100%, -932%);
+}
+
 /* product info page */
 .buy-now-btn {
     background-color: #000080;
