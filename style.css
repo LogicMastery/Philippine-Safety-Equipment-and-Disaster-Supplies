@@ -104,8 +104,27 @@ contact page and company page, it's an easy access*/
     transform: scale(1);
 }
 
+.dropdown-link{
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.dropdown-link:hover{
+    color: #000;
+}
 .navbar-toggler {
     border: none;
+}
+
+.navbar-light .navbar-toggler {
+    color: #000;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
 }
 
 .dropdown-item.active, .dropdown-item:active {
@@ -622,6 +641,12 @@ even they are in the same class, the problem is that I'm missing an end section 
     width: 815px;
 }
 
+.heading-company-2 {
+    font-size: 96px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
 .description-company-2 {
     font-size: 24px;
     font-weight: 200;
@@ -719,6 +744,9 @@ even they are in the same class, the problem is that I'm missing an end section 
 }
 /* Footer */
 
+.mac-footer {
+    transform: translate(5%);
+}
 footer {
     position: relative;
     width: 100%;
@@ -754,6 +782,10 @@ footer .footer-container .sec h2::before {
     width: 140px;
     height: 2px;
     background: #F79431;
+}
+
+footer .footer-container .sec h2:hover::before {
+    transform: scale(1);
 }
 
 footer .footer-container .sec p{
@@ -848,5 +880,9 @@ footer {
     width: 700px;
     text-align: center;
     bottom: 0;
-    transform: translate(86%, 150%);
+    transform: translate(80%, 150%);
+}
+
+.mac-copyright{
+    transform: translate(20%);
 }
