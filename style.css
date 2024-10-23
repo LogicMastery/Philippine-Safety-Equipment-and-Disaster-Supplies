@@ -72,7 +72,7 @@ contact page and company page, it's an easy access*/
 }
 
 .nav-item {
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 
@@ -104,17 +104,6 @@ contact page and company page, it's an easy access*/
     transform: scale(1);
 }
 
-.dropdown-link{
-    font-size: 15px;
-    color: #000;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 400;
-}
-
-.dropdown-link:hover{
-    color: #000;
-}
 .navbar-toggler {
     border: none;
 }
