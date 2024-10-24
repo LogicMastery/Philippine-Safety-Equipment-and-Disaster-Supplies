@@ -469,7 +469,7 @@ can contact the company or the person. */
     top: 40%;
     right: 40%;
     width: 800px;
-    transform: translate(85%, -103%);
+    transform: translate(85%, -90%);
 }
 
 .map-heading {
@@ -487,6 +487,11 @@ can contact the company or the person. */
     font-weight: 200;
     width: 619px;
     height: 92px;
+}
+
+.embed-maps{
+    width: 800px;
+    height: 450px;
 }
 /* Styling the contact info text and heading */
 .contact-info-content {
@@ -570,7 +575,7 @@ can contact the company or the person. */
     font-weight: 500; 
     color: #F79431;
     text-align: right;
-    transform: translate(-80%);
+    transform: translate(-33%);
 }
 
 .social-links {
@@ -580,7 +585,7 @@ can contact the company or the person. */
     justify-items: right;
     color: #000;
     font-size: 40px;
-    transform: translate(-20%);
+    transform: translate(66%);
     width: 800px;
 }
 

@@ -130,7 +130,48 @@
         }
         
         /* Contact page */
+        .contact-section{
+            width: 122%;
+        }
+        .contact-text-content{
+            transform: translate(10%, 5%);
+        }
+        .contact-image{
+            transform: translate(-190%, 85%);
+        }
+        .contact-info-content{
+            transform: translate(0, 300%);
+        }
+        .contact-container{
+            transform: translate(0, 55%);
+            width: 100%;
+        }
+        /* fix the width of the email, name and write message input */
+        .send-email{
+            width: 20%;
+        }
+        .maps{
+            transform: translate(-5%, 30%);
+        }
+        .embed-maps{
+            width: 550px;
+        }
+        .map-text{
+            width: 71%
+        }
 
+        .map-text, .map-heading{
+            transform: translate(0,-40%);
+        }
+        .map-heading{
+            transform: translate(0, -70%);
+        }
+        .social-text{
+            transform: translate(-70%, 3700%);
+        }
+        .social-links{
+            transform: translate(-20%, 1800%);
+        }
         /* footer Section */
         .about-comp {
             display: grid;
