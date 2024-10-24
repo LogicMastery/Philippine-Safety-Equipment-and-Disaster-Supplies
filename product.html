@@ -78,19 +78,21 @@
       </form>
       
       
-      <!--List of products-->
+      <!--Categories-->
+      <h2 class="categories-heading">Category:</h2>
+      <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+        <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+        <label class="btn btn-outline-primary categories text-uppercase" for="btncheck1">first aid</label>
+        
+        <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+        <label class="btn btn-outline-primary categories text-uppercase" for="btncheck2">safety & survival</label>
+      
+        <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+        <label class="btn btn-outline-primary categories text-uppercase" for="btncheck3">rescue tools</label>
+      </div>
       <br><br><br><br>
+      <!--List of products-->
       <div class="row row-cols-2 row-cols-xl-4 row-cols-xxl-4 row-cols-md-2 row-cols-sm-1 g-4 product-position product-items" id="product-items" style="border: 1px solid red;">
-        <!--Categories-->
-        <div class="col-12 col-md-4 order-1 order-md-2 category-group">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item text-uppercase"><h4>Category</h4></li>
-            <li class="list-group-item"><a href="first-aid.html" class="text-uppercase categories">first aid</a></li>
-            <li class="list-group-item"><a href="safety-and-survival.html" class="text-uppercase categories">safety & survival</a></li>
-            <li class="list-group-item"><a href="rescue-tools.html" class="text-uppercase categories">rescue tools</a></li>
-          </ul>
-    
-        </div>
         <!--Col 1-->
         <div class="col">
           <div class="product">
@@ -143,7 +145,7 @@
       </div>
     </div>
   
-    <div class="col">
+    <div class="col first-aid">
       <div class="product">
         <a href="product-info.html" class="link-style">
           <div class="card border-dark h-100 product-link">

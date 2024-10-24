@@ -229,7 +229,6 @@ product-image {
 }
 
 .categories {
-    text-decoration: none;
     color: #000;
 }
 
@@ -246,6 +245,9 @@ product-image {
     transform: translate(-100%, -932%);
 }
 
+.categories-heading {
+    color: #000;
+}
 /* product info page */
 .buy-now-btn {
     background-color: #000080;
