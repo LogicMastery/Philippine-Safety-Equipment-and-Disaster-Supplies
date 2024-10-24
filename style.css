@@ -18,6 +18,7 @@ body {
     justify-content: end;
     align-content: end;
     color: white;
+    overflow-x: auto;
 }
 
 :root {

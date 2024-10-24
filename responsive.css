@@ -251,7 +251,7 @@
 
         .heading-section-1, .heading-section-2{
             transform: translate(2%);
-            width: 394px;
+            width: 380px;
         }
 
         .description-section-1, .description-section-2{
@@ -262,15 +262,76 @@
 
         .footer-mobile{
             transform: translate(190%);
-            border: 1px solid red;
         }
 
         .card-position{
             width: 17%;
             transform: translate(481%);
-            border: 1px solid red;
         }
         .product {
             width: 300px;
+        }
+        body{
+            overflow-x: hidden;
+        }
+    }
+
+    /* figure out how to not scroll horizontally */
+    @media (max-width: 412px){
+        body{
+            overflow-x: hidden;
+        }
+
+        .navbar-brand {
+            font-size: 10px;
+        }
+
+        .headline{
+            transform: translate(380%, 15%);
+        }
+
+        .product-link:hover {
+            transform: none;
+        }
+
+        .card-position {
+            transform: translate(361%);
+            border: 1px solid red;
+        }
+
+        .content-pos{
+            transform: translate(316%);
+        }
+
+        .img-content{
+            width: 380px;
+            transform: translate(11%);
+        }
+
+        .heading-section-1, .heading-section-2{
+            transform: translate(2%);
+            width: 380px;
+        }
+
+        .description-section-1, .description-section-2{
+            font-size: 1.1rem;
+            width: 390px;
+            transform: translate(3%);
+        }
+
+        .footer-mobile{
+            transform: translate(190%);
+        }
+
+        .card-position{
+            width: 17%;
+            transform: translate(481%);
+        }
+        .product {
+            width: 300px;
+        }
+        
+        .navbar-toggler{
+            transform: translate(-35%);
         }
     }
