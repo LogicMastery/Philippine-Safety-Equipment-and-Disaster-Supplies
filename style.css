@@ -873,6 +873,14 @@ footer {
     transform: translate(80%, 150%);
 }
 
+.copyright-text-2 {
+    position: relative;
+    width: 700px;
+    text-align: center;
+    bottom: 0;
+    transform: translate(80%, 150%);
+}
+
 .mac-copyright{
     transform: translate(20%);
 }
