@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0a4c800976.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="icon/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script type="module/text/javascript" src="app.js" async></script> <!--Fixed the the module error all I need to add in my script tag is type="module/text/javascript" that will fixed the module error-->
+    <script type="module/text/javascript" src="server.js" async></script>
+    <title>Philippine Safety Equipment and Disaster Supplies - Product info</title>
+</head>
+
+<body>
+     <!-- Navigation Menu -->
+     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="icon/ltc-orig.png" alt="" class="img-logo">Philippine
+                Safety Equipment and Disaster Supplies</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon"><i class="fa-solid fa-bars fa-2xl"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="company.html">Company</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" aria-current="page" href="#" id="product-dropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            store
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="product-dropdown">
+                            <li><a class="nav-link active dropdown-item" aria-current="page" href="product.html">Product</a></li>
+                            <li><a class="nav-link dropdown-item" href="customize-your-kit.html">Customize Your Kit</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <hr>
+
+    <div class="container">
+        <!--Product info making the card not overlapping with the navigation menu-->
+            <div class="col mb-md-0 p-md-4 cols-2 cols-xl-2 cols-xxl-2 cols-md-2 cols-sm-1 g-4 product-details">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: #000;"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: #000;"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" style="background-color: #000;"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4" style="background-color: #000;"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="products/no-name-4(1).png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="products/no-name-4(2).png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="products/no-name-4(3).png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="products/no-name-4(4).png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: #000;"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: #000;"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              </div>
+            <div class="col-md-6 p-4 ps-md-0 product-title-pos" style="color: #000;">
+              <br><br>
+              <h5 class="mt-0 product-info-heading">no name 4</h5>
+              <p class="text-uppercase product-info-text">in stock</p>
+              <h5 style="font-size: 24px;">$199.99</h5>
+              
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+              <div class="btn-group" role="group">
+                <select id="btnGroupDrop1" type="button" class="btn btn-light dropdown-toggle product-selection" data-bs-toggle="dropdown" aria-expanded="false">
+                  <option value="" disabled selected>QTY</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                  <option value="25">25</option>
+                </select>
+              
+              </div>
+                <button type="button" class="btn btn-light text-uppercase btn-cart"><a href="" class="btn-cart-link">add to cart</a></button>
+              </div>
+              <a href="purchase.html">
+                <button type="button" class="btn text-uppercase buy-now-btn">buy now</button>
+              </a>
+            </div>
+          </div>
+
+          <br><br><br><br>
+          <div class="card product-main product-desc" style="border: none;">
+            <h3 class="card-title text-uppercase product-info-title">Product Description:</h3>
+              <div class="card-body" style="color: #000;">
+                <p class="card-text product-info-desc">Lorem ipsum dolor sit amet consectetur. At pretium enim 
+                  nulla at venenatis auctor. Proin a quam sit ornare mattis. Donec id fermentum 
+                  molestie blandit. Id aliquam nunc id eget pellentesque faucibus cursus. 
+                  Magna in a amet pulvinar mattis augue sit nulla ac. Odio eleifend a 
+                  pellentesque varius eget odio sed. Lacus sed ultricies purus vel massa pellentesque.
+                   Faucibus sem neque sapien maecenas ultricies molestie leo vestibulum tellus. 
+                   Vel dictum consectetur orci phasellus interdum quam libero. </p>
+              </div>
+
+          </div>
+
+          <!--Additional information-->
+          <br>
+          <div class="row" class="additional-info">
+            <h3 class="card-title text-uppercase product-additional-title">additional info:</h3>
+            <div class="col-sm-3">
+              <div class="card product-additional-info">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase additional-heading">weight:</h5>
+                  <p class="card-text text-uppercase product-additional-details">2kg</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card product-additional-info">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase additional-heading">label condition:</h5>
+                  <p class="card-text text-uppercase product-additional-details">good</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card product-additional-info">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase additional-heading">box:</h5>
+                  <p class="card-text text-uppercase product-additional-details">yes/good condition</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br>
+          <div class="col product-heading-width">
+            <h3 class="card-title text-uppercase product-heading">related products:</h3>
+          </div>
+
+           <!--List of products-->
+      <div class="row row-cols-2 row-cols-xl-4 row-cols-xxl-4 row-cols-md-2 row-cols-sm-1 g-4 product-position-3 product-items" id="product-items">
+        <!--Col 1-->
+        <div class="col">
+         <div class="product">
+           <a href="product-info.html" class="link-style">
+             <div class="card border-dark h-100 product-link">
+               <img src="products/no-name-7(2).png" class="card-img-top" alt="...">
+               <div class="card-body" style="color: #000; text-align: center;">
+                 <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">datrex
+                   emergency water</h5>
+                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                   additional content. This card has even longer content than the first to show that equal
+                   height
+                   action.</p>
+             </div>
+           </a>
+       </div>
+         </div>
+     </div>
+ 
+     <div class="col">
+       <div class="product">
+         <a href="product-info.html" class="link-style">
+           <div class="card border-dark h-100 product-link">
+             <img src="products/no-name-8(2).png" class="card-img-top" alt="...">
+             <div class="card-body" style="color: #000; text-align: center;">
+               <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">celox
+                 hemostatic granules</h5>
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                 additional content. This content is a little bit longer.</p>
+           </div>
+         </a>
+     </div>
+       </div>
+   </div>
+ 
+   <div class="col">
+     <div class="product">
+       <a href="product-info.html" class="link-style">
+         <div class="card border-dark h-100 product-link">
+           <img src="products/no-name-9.png" class="card-img-top" alt="...">
+           <div class="card-body" style="color: #000; text-align: center;">
+             <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">emergency
+               blanket</h5>
+             <p class="card-text">This card has supporting text below as a natural lead-in to additional
+               content.
+             </p>
+         </div>
+       </a>
+   </div>
+     </div>
+   </div>
+ 
+   <div class="col first-aid">
+     <div class="product">
+       <a href="product-info.html" class="link-style">
+         <div class="card border-dark h-100 product-link">
+           <img src="products/no-name-10.png" class="card-img-top" alt="...">
+           <div class="card-body" style="color: #000; text-align: center;">
+             <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">first aid kit
+             </h5>
+             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+               additional content. This card has even longer content than the first to show that equal
+               height
+               action.</p>
+         </div>
+       </a>
+   </div>
+     </div>
+   </div>
+ 
+ 
+   <!--Col 2-->
+   <div class="col">
+     <div class="product">
+       <a href="product-info.html" class="link-style">
+         <div class="card border-dark h-100 product-link">
+           <img src="products/no-name-11.png" class="card-img-top" alt="...">
+           <div class="card-body" style="color: #000; text-align: center;">
+             <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">emergency
+               food ration bars</h5>
+             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+               additional content. This card has even longer content than the first to show that equal
+               height
+               action.</p>
+         </div>
+       </a>
+   </div>
+     </div>
+   </div>
+ 
+   <div class="col">
+     <div class="product">
+       <a href="product-info.html" class="link-style">
+         <div class="card border-dark h-100 product-link">
+           <img src="products/no-name-12.png" class="card-img-top" alt="...">
+           <div class="card-body" style="color: #000; text-align: center;">
+             <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">ready hour
+               2400 calorie emergency ration bars</h5>
+             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+               additional content. This card has even longer content than the first to show that equal
+               height
+               action.</p>
+         </div>
+       </a>
+   </div>
+     </div>
+   </div>
+ 
+   <div class="col">
+     <div class="product">
+       <a href="#" class="link-style">
+         <div class="card border-dark h-100 product-link">
+           <img src="products/no-name-13.png" class="card-img-top" alt="...">
+           <div class="card-body" style="color: #000; text-align: center;">
+             <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">celox-a</h5>
+             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+               additional content. This card has even longer content than the first to show that equal
+               height
+               action.</p>
+         </div>
+       </a>
+   </div>
+     </div>
+   </div>
+ 
+   <div class="col">
+     <div class="product">
+       <a href="product-info.html" class="link-style">
+         <div class="card border-dark h-100 product-link">
+           <img src="products/no-name-14.png" class="card-img-top" alt="...">
+           <div class="card-body" style="color: #000; text-align: center;">
+             <h5 class="card-title" id="product-keyword" style="text-transform: uppercase; color: #F79431;">t6
+               rechargeable flashlight zoomable</h5>
+             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+               additional content. This card has even longer content than the first to show that equal
+               height
+               action.</p>
+         </div>
+       </a>
+   </div>
+     </div>
+   </div>
+ 
+ </div>
+      
+
+    <!-- Footer -->
+   <footer class="bg-navy-blue py-7 cols-2 cols-md-4 g-4">
+    <div class="container-fluid footer-mobile-2 mac-footer">
+
+        <!--About Company-->
+        <div class="row">
+            <div class="col-md-2">
+                <div class="footer-logo mb-4">
+                    <img src="icon/ltc-orig.png" alt="Company Logo" class="img-fluid">
+                </div>
+            </div>
+
+            <!--About Us-->
+            <div class="col-md-3 about-comp">
+                <h5>About Us</h5>
+                <p>Lorem ipsum dolor sit amet consectetur. Rhoncus laoreet maecenas lacus luctus
+                    rhoncus. Gravida vel nec pretium vitae amet sollicitudin. Varius at donec sed
+                    tincidunt bibendum varius.</p>
+            </div>
+
+            <!--Navigation Links-->
+            <div class="col-md-2 footer-nav">
+                <h5>Navigation</h5>
+                <ul class="list-unstyled footer-navigation">
+                    <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+                    <li><a href="company.html" class="text-white text-decoration-none">Company</a></li>
+                    <li><a href="accreditation.html" class="text-white text-decoration-none">Accreditation</a></li>
+                    <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+                </ul>
+            </div>
+
+            <!--Quick Links-->
+            <div class="col-md-2 quick-links-title">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled quick-links">
+                    <li><a href="#" class="text-white text-decoration-none">Product</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Link2</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Link3</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Link4</a></li>
+                </ul>
+            </div>
+
+            <!--Work Hours-->
+            <div class="col-md-2 work-time">
+                <h5>Work Hours</h5>
+                <p>7 AM - 5 PM, Mon - Sat</p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+        </div>
+    </div>
+  </footer>
+  <div class="bg-navy-blue text-white text-center py-1 copyright-text-3">
+      <p class="mb-0">&copy; 2024 Philippine Safety Equipment and Disaster Supplies, All Rights Reserved</p>
+  </div>
+</body>
+</html>

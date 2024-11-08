@@ -1,0 +1,27 @@
+{
+  "name": "philippine-safety-equipment-and-disaster-supplies",
+  "version": "1.0.0",
+  "description": "Product website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LogicMastery/Philippine-Safety-Equipment-and-Disaster-Supplies.git"
+  },
+  "author": "Jean Dale Joseph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LogicMastery/Philippine-Safety-Equipment-and-Disaster-Supplies/issues"
+  },
+  "homepage": "https://github.com/LogicMastery/Philippine-Safety-Equipment-and-Disaster-Supplies#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "node": "^22.11.0",
+    "nodemailer": "^6.9.16"
+  }
+}
