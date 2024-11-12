@@ -177,6 +177,10 @@ contact page and company page, it's an easy access*/
     transform: translate(0, -220%);
 }
 
+.text-position{
+    height: 20%;
+}
+
 /* The product links showcasing all 4 products we sell on the page, 
 all the list of the products will be on the product page*/
 .product-links {
@@ -369,7 +373,7 @@ product-image {
 }
 /* Purchase page */
 .purchase-form {
-    transform: translate(120%, 20%);
+    transform: translate(128%, 20%);
     background: rgb(0,0,128);
     background: linear-gradient(90deg, rgba(0,0,128,1) 0%, rgba(0,0,238,1) 100%);
     max-width: 508px; 

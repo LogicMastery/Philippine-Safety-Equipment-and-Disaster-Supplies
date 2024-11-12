@@ -1,27 +1,37 @@
-$(document).sendMail(function() {
-    $('#contact-form').on('submit', function(event) {
-        event.preventDefault(); // Prevent form from submitting the traditional way
+document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("contact-form").addEventListener("submit", async function(event) {
+        event.preventDefault();
 
-        // Collect form data
-        const formData = {
-            name: $('#user_name').val(),
-            email: $('#user_email').val(),
-            message: $('#message').val()
-        };
+        const email = document.getElementById("user_email").value;
+        const name = document.getElementById("user_name").value;
+        const message = document.getElementById("message").value;
 
-        // Send data to server using AJAX
-        $.ajax({
-            type: 'POST',
-            url: '/send', // The endpoint where we will send the form data
-            data: formData,
-            success: function(response) {
-                alert('Your message has been sent!');
-            },
-            error: function() {
-                alert('There was an error sending your message.');
+        // Alert and log that the message is being sent
+        alert("Sending...");
+        console.log("Attempting to send email...");
+        console.log("Data being sent:", { email, name, message });
+
+        try {
+            const response = await fetch("http://localhost:5000/send-email", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ email, name, message })
+            });
+
+            if (!response.ok) {
+                throw new Error("Failed to send message.");
             }
-        });
+
+            const result = await response.text();
+
+            // Alert and log successful message sending
+            alert("Email sent!");
+            console.log("Email sent successfully. Server response:", result);
+        } catch (error) {
+            console.error("Error:", error);
+            alert("Failed to send message.");
+        }
     });
 });
-
-

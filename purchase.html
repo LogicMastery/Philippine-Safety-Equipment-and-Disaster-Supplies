@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <script type="module/text/javascript" src="app.js" async></script> <!--Fixed the the module error all I need to add in my script tag is type="module/text/javascript" that will fixed the module error-->
-    <script type="module/text/javascript" src="server.js" async></script>
+    <script type="module/text/javascript" src="server.js"></script>
+    <script src="product-details.js"></script>
     <title>Philippine Safety Equipment and Disaster Supplies - Product info</title>
 </head>
 
@@ -52,27 +53,30 @@
     </nav>
     <hr>
 
-    <div action="" class="purchase-form">
-        <div class="mb-2">
-            <h2 class="purchase-heading">
-                Please Fill Up The Form To Complete Your Purchase
-            </h2>
-        </div>
-        <div class="mb-2">
-            <input type="text" class="form-control bg-purchase-input purchase-name" id="exampleFormControlInput1" placeholder="Full Name" style="color: #fff;">
-          </div>
-        <div class="mb-2">
-            <input type="email" class="form-control bg-purchase-input purchase-email" id="exampleFormControlInput1" placeholder="Email" style="color: #fff;">
-          </div>
-          <div class="mb-2">
-            <input type="number" class="form-control bg-purchase-input purchase-number NumPurchasePlaceholder" id="exampleFormControlInput1" placeholder="Phone Number" style="color: #fff;">
-          </div>
-          <div class="mb-2">
-            <textarea class="form-control bg-purchase-input purchase-message" id="exampleFormControlTextarea1" rows="12" placeholder="Type your message" style="color: #fff;"></textarea>
-          </div>
-          <div class="mb-4">
-           <button type="submit" class="bg-purchase-input purchase-send" style="color: #fff;">Send</button>
-          </div>
+    <div>
+        <form action="" class="purchase-form">
+
+            <div class="mb-2">
+                <h2 class="purchase-heading">
+                    Please Fill Up The Form To Complete Your Purchase
+                </h2>
+            </div>
+            <div class="mb-2">
+                <input type="text" class="form-control bg-purchase-input purchase-name" id="exampleFormControlInput1" placeholder="Full Name" style="color: #fff;">
+            </div>
+            <div class="mb-2">
+                <input type="email" class="form-control bg-purchase-input purchase-email" id="exampleFormControlInput1" placeholder="Email" style="color: #fff;">
+            </div>
+            <div class="mb-2">
+                <input type="number" class="form-control bg-purchase-input purchase-number NumPurchasePlaceholder" id="exampleFormControlInput1" placeholder="Phone Number" style="color: #fff;">
+            </div>
+            <div class="mb-2">
+                <textarea class="form-control bg-purchase-input purchase-message" id="exampleFormControlTextarea1" rows="12" placeholder="Type your message" style="color: #fff;"></textarea>
+            </div>
+            <div class="mb-4">
+                <button type="submit" class="bg-purchase-input purchase-send" style="color: #fff;" onclick="sendPurchaseEmail()">Send</button>
+            </div>
+        </form>
 
         </div>
 
